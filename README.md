@@ -26,16 +26,16 @@ Creating and designing the database with star schema which is usually clear for 
 
 ## How to Run
 ### Set appropriate AWS key and S3 output
-"""
+```
 etl.py
 output_data = <your S3 bucket path>
-"""
-"""
+```
+```
 dl.cfg
 [AWS]
 AWS_ACCESS_KEY_ID = <your aws key>
 AWS_SECRET_ACCESS_KEY = <your aws secret>
-"""
+```
 ### Steps
 1. Direct to the correct location where this Data Lake Project saved in the terminal
 with command like `cd`
